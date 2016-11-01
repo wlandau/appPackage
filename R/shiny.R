@@ -4,7 +4,7 @@ my_server <- function(input, output) {
   })
 }
 
-# This should be a function so nested functions are lazily loaded.
+# Needs to be a function so nested dependencies are lazily loaded.
 my_ui <- function(){fluidPage(
   sidebarLayout(
     sidebarPanel(
