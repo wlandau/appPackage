@@ -17,5 +17,4 @@ Then, you can run the Shiny app locally.
 ```r
 library(appPackage)
 my_app()
-
 ```
