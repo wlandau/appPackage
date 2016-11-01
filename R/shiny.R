@@ -4,18 +4,19 @@ my_server <- function(input, output) {
   })
 }
 
-my_ui <- fluidPage(
+# This should be a function so nested functions are lazily loaded.
+my_ui <- function(){fluidPage(
   sidebarLayout(
     sidebarPanel(
       sliderInput("obs", "Number of observations:", min = 10, max = 500, value = 100)
     ),
     mainPanel(plotOutput("distPlot"))
   )
-)
+)}
 
 #' @title Function \code{my_app}
 #' @description Runs the Shiny app.
 #' @export
 my_app = function(){
-  shinyApp(ui = my_ui, server = my_server)
+  shinyApp(ui = my_ui(), server = my_server)
 }
