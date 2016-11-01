@@ -1,4 +1,4 @@
 #' @import shiny
-#' @importFrom graphics plot
+#' @importFrom graphics hist
 #' @importFrom stats rnorm
 NULL

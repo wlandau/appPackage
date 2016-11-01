@@ -1,2 +1,2 @@
 devtools::load_all()
-run_my_app()
+my_app()

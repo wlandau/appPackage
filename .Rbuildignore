@@ -1,10 +1,17 @@
 # The app.R file is not needed for the package. Only for the remote Shiny app on the server.
-app.R
+^app.R
 
 
-##################################################
 
-.DS_Store # For Macs
+#####################################################################
+
+# Git and GitHub
+.git
+.gitignore
+README.md
+
+# For Mac users
+.DS_Store
 
 # History files
 .Rhistory
@@ -12,9 +19,6 @@ app.R
 
 # Session Data files
 .RData
-
-# Example code in package build process
-*-Ex.R
 
 # Output files from R CMD build
 /*.tar.gz
@@ -37,5 +41,5 @@ vignettes/*.pdf
 /cache/
 
 # Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+/*.utf8.md
+/*.knit.md

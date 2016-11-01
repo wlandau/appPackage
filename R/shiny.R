@@ -1,6 +1,6 @@
 my_server <- function(input, output) {
   output$distPlot <- renderPlot({
-    make_my_plot(input$obs)
+    my_plot(input$obs)
   })
 }
 
@@ -13,9 +13,9 @@ my_ui <- fluidPage(
   )
 )
 
-#' @title Function \code{run_my_app}
+#' @title Function \code{my_app}
 #' @description Runs the Shiny app.
 #' @export
-run_my_app = function(){
+my_app = function(){
   shinyApp(ui = my_ui, server = my_server)
 }
