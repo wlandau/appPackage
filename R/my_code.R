@@ -17,5 +17,5 @@ my_ui <- fluidPage(
 #' @description Runs the Shiny app.
 #' @export
 run_my_app = function(){
-  shinyApp(ui = my_ui, server = server)
+  shinyApp(ui = my_ui, server = my_server)
 }
