@@ -1,0 +1,17 @@
+Package: appPackage
+Type: Package
+Title: This Shiny App is a Package! This Package is a Shiny App!
+Version: 0.0.0.9000
+Date: 2016-11-01
+Authors@R: person(family = "Landau", given = "William", email =
+        "will.landau@gmail.com", role = c("aut", "cre"))
+Description: This project can either be deployed to a server as a Shiny app or
+    installed locally as a package that runs the app. Either way, the
+    functionality is the same.
+License: GPL (>=3)
+Depends: R (>= 3.0.0)
+Imports: shiny
+URL: https://github.com/wlandau/appPackage
+RoxygenNote: 5.0.1
+NeedsCompilation: no
+Packaged: 2016-11-01 21:48:32 UTC; landau

@@ -1,4 +1,10 @@
-.DS_Store
+# The app.R file is not needed for the package. Only for the remote Shiny app on the server.
+app.R
+
+
+##################################################
+
+.DS_Store # For Macs
 
 # History files
 .Rhistory
